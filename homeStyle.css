@@ -1,0 +1,129 @@
+body{font-family: 'Poppins', sans-serif;}
+#navbarSupportedContent{
+    margin-left: 720px;
+}
+.linkColor:hover{
+    color:#0ef;
+}
+.name{
+    color: #05696b;
+}
+#element{
+    color: #05696b; 
+}
+.service{
+    margin-top: 450px;
+}
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #010B13 !important;
+    color: #0ef;
+
+}
+.btn-primary:hover{
+    color: #010B13;
+    background-color: #0ef !important;
+}
+#line{
+    color: #05696b;
+    height: 2px;
+    background-color: #05696b;
+    margin-top: 15px;
+    border: 1px solid #0ef;
+    box-shadow: 5px 5px 5px gray;
+
+}
+.github i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: #010B13;
+    font-size: 2rem;
+    color : #0ef;
+    margin: 3rem 1.5rem 3rem 0;
+    border-radius: 50%;
+    
+} 
+.github i:hover{
+    background-color: #0ef;
+    color: #010B13;
+ 
+}
+.cardLine{
+   
+    background-color: #010B13;
+}
+#cta{
+    width: 130px;
+    color: whitesmoke;
+    font-size: smaller;
+    font-weight: 100;
+    opacity: 0.8;
+    background-color: aqua;
+}
+#footerLink{
+    
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      
+}
+.follow{
+    color: #0ef;
+    
+}
+.social-media{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: #010B13;
+    font-size: 1rem;
+    color : #0ef;
+    margin: 3rem 1.5rem 3rem 0;
+    border-radius: 50%; 
+    border: .1rem solid #0ef;  
+}
+.social-media:hover{
+    background-color: #0ef;
+    color: #010B13;
+    text-decoration: none;
+}
+#headline{
+    
+    font-size: 3rem; 
+    width:fit-content;
+    vertical-align: middle;
+         
+       
+    
+}
+@media only screen and (max-width: 810px) {
+    #headline {
+      font-size: 2rem;
+      text-justify: inter-word; 
+        text-align: justify;
+        width: 340px;
+      
+    }
+   
+  }
+  @media only screen and (max-width: 600px) {
+    #headline {
+        margin-top: 30px;
+      font-size: 1.5rem;
+      text-justify: inter-word; 
+        text-align: justify;
+        width: 250px;
+        margin-bottom: 20px;
+
+    
+    }
+    #frontImg{
+        width: 300px;
+        height: 300px;
+        margin-right: 20px;
+    }
+  }

@@ -1,0 +1,72 @@
+body{font-family: 'Poppins', sans-serif;}
+#navbarSupportedContent{
+    margin-left: 720px;
+}
+.linkColor:hover{
+    color:#0ef;
+}
+#cta{
+    width: 130px;
+    color: whitesmoke;
+    font-size: smaller;
+    font-weight: 100;
+    opacity: 0.8;
+    background-color: aqua;
+}
+#footerLink{
+    
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      
+}
+.follow{
+    color: #0ef;
+    
+}
+.social-media{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: #010B13;
+    font-size: 1rem;
+    color : #0ef;
+    margin: 3rem 1.5rem 3rem 0;
+    border-radius: 50%; 
+    border: .1rem solid #0ef;  
+}
+.social-media:hover{
+    background-color: #0ef;
+    color: #010B13;
+    text-decoration: none;
+}
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #010B13 !important;
+    color: #0ef;
+    
+
+
+}
+.btn-primary:hover{
+    color: #010B13;
+    background-color: #0ef !important;
+    
+   
+}
+#serviceType{
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    #serviceType{
+        text-align: left;
+    }
+   
+  }
+  @media only screen and (max-width: 600px) {
+    #serviceType{
+        text-align: center;
+    }
+   
+  }

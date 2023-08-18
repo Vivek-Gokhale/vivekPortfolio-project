@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <style>
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+  </style>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="serviceStyle.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <title>Vivek's Portfolio</title>
+</head>
+
+<body>
+  <div id="content">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="logo.png" width="60px" height="60px">
+      <h5 style="margin: 2px; color: white;"> Vivek's Portfolio </h5>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home.html"><span class="linkColor">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="about.html"><span class="linkColor">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skill.html"><span class="linkColor">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html"><span class="linkColor">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><span class="linkColor">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Button trigger modal -->
+  <br><br>
+  <div class="container">
+    <div class="container" id="serviceType">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#FrontendModal"
+        style="width: 220px; height: 220px;">
+        Frontend<br>Developer
+      </button>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#BackendModal"
+        style="width: 220px; height: 220px;">
+        Backend<br> Developer
+      </button>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#AndroidModal"
+        style="width: 220px; height: 220px;">
+        Android <br>Developer
+      </button>
+      <br>
+
+    </div>
+    <div class="container" style="text-align: center; margin-top: 5px;">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#WebModal"
+        style="width: 220px; height: 220px;">
+        Web<br> Developer
+      </button>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ProjectModal"
+        style="width: 220px; height: 220px;">
+        Project<br> Helper
+      </button>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#SoftwareModal"
+        style="width: 220px; height: 220px;">
+        Software <br>Developer
+      </button>
+    </div>
+
+  </div>
+  <br><br>
+
+  <!-- Modal -->
+  <div class="modal fade" id="FrontendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Frontend Developer Services</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><b>User-Centric Design :</b> Prioritize intuitive interfaces and engaging visuals for a seamless user
+              experience.</li>
+            <li><b>Performance Optimization :</b> Ensure fast loading times by optimizing code, images, and minimizing
+              requests.</li>
+            <li><b>Compatibility & Responsiveness :</b> Test across devices and browsers to ensure consistent :</b>
+              Write clean, modular code for easy collaboration and future updates.</li>
+            <li><b>Code Quality & Scalability :</b> Write clean, modular code for easy collaboration and future updates.
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="BackendModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Backend Developer Services</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><b>Efficient Database Management :</b> Create and manage optimized databases for secure and reliable
+              data storage.</li>
+            <li><b>Scalability and Performance :</b> Develop systems that handle growth while maintaining optimal speed.
+            </li>
+            <li><b>Structured Documentation : </b>allow both technical and non-technical person to understand system
+            </li>
+            <li><b>Security and Authentication :</b> Implement strong measures to protect data and ensure authorized
+              access.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="AndroidModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Android Developer Services</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><b>Intuitive Design :</b> Craft visually appealing and user-friendly Android apps</li>
+            <li><b>Optimized Performance :</b> Develop apps for smooth and fast user experiences.</li>
+            <li><b>Compatibility & Adaptability :</b> Ensure your apps work across a range of Android devices and screen sizes, following best practices for responsive design.</li>
+            <li><b>Security & Privacy :</b> Implement robust measures to safeguard user data.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="WebModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Web Developer Services</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><b>Responsive Design :</b> Create websites that adapt seamlessly to various devices and screen sizes.
+            </li>
+            <li><b>Optimized Performance :</b> Develop fast-loading websites for an optimal user experience.</li>
+            <li><b>Intuitive User Interfaces :</b> Design user-friendly interfaces to enhance usability and engagement.
+            </li>
+            <li><b>Cross-Browser Compatibility :</b> Ensure consistent functionality across different web browsers.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="ProjectModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Project Helper Services</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><b>Task Coordination :</b> Assist in organizing and coordinating project tasks for efficient workflow.
+            </li>
+            <li><b>Research Support :</b> Provide research assistance to gather relevant information and insights.</li>
+            <li><b>Documentation Help :</b> Aid in creating and organizing project documents for clarity and
+              accessibility.</li>
+            <li><b>Problem Solving :</b> Assist in troubleshooting issues and brainstorming solutions for project
+              challenges.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="SoftwareModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Software Developer Services</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li><b>Custom Software Solutions :</b> Develop tailored software applications to address specific business
+              needs.</li>
+            <li><b>Code Quality Assurance :</b> Ensure high-quality code through testing and best coding practices.</li>
+            <li><b>Continuous Integration :</b> Implement automated integration and deployment processes for efficient
+              development.</li>
+            <li><b>Technical Problem Solving :</b> Provide expertise in resolving complex technical issues and
+              optimizing software performance.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark" style="color: white;"><br>
+    <div class="container">
+      <!-- <p id="cta">"Ready to turn your ideas into reality? Let's collaborate on your next tech project. Reach out today, and let's
+            create something amazing together."</p> -->
+
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Quick links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="home.html" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
+              <li class="nav-item mb-2"><a href="skill.html" class="nav-link p-0 text-muted">Skills</a></li>
+              <li class="nav-item mb-2"><a href="service.html" class="nav-link p-0 text-muted">Services</a></li>
+              <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Projects links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://github.com/Vivek-Gokhale/netchat-project/tree/main" class="nav-link p-0 text-muted">netChat</a></li>
+              <li class="nav-item mb-2"><a href="https://github.com/Vivek-Gokhale/webScraper-project" class="nav-link p-0 text-muted">Web Scraper</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Portfolio site</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Services</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2 text-muted">Android Developer</li>
+              <li class="nav-item mb-2 text-muted">Frontend Developer</li>
+              <li class="nav-item mb-2 text-muted">Backend Developer</li>
+              <li class="nav-item mb-2 text-muted">Web Developer</li>
+              <li class="nav-item mb-2 text-muted">Software Developer</li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5 style="color: #0ef;">Explore me</h5>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+
+                <input id="searchInput" type="text" class="form-control" placeholder="Search Content of your Choice">
+                <button class="btn btn-primary" type="button" id="searchButton">Search</button>
+              </div>
+            </form>
+            <p class="text-muted my-2">"Ready to turn your ideas into reality? Let's collaborate on your
+              next tech project. Reach out today, and
+              let's create something amazing together."</p>
+          </div>
+        </div><br>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p style="width: fit-content;">Copyright © 2023, Inc. All rights reserved.</p>
+          <span class="follow" style=" margin-top: -55px;">
+            <a href="https://linkedin.com/in/vivek-gokhale" class="social-media"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Vivek-Gokhale" class="social-media"><i
+                class='bx bxl-github'></i></a>
+            <a href="https://twitter.com/vivekgokhale23" class="social-media"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61550308201002" class="social-media"><i
+                class='bx bxl-facebook'></i></a>
+          </span>
+
+
+        </div>
+      </footer>
+
+    </div>
+
+  </footer>
+</div><div id="searchResults"></div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="serviceJS.js"></script>
+  <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
